@@ -1,21 +1,64 @@
 body{
-  background-color:#e8c5c5;
-  margin-left: 30px;
-  margin-right: 200px;
+  background-color:#e8c5c563;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.title{
+margin-top: 40px;
+text-align: center;
+color: rgba(238, 103, 103, 0.849);
+font-family: cursive
 }
 
 
 header{
-  margin-top: 70px
+  margin-top: 70px;
+  text-align: center;
+  
+}
+
+nav{
+  padding-bottom: 5px;
+ border-bottom: 5px solid rgba(238, 103, 103, 0.089);
+}
+
+nav ul{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+
+ list-style: none;
+ 
+ 
+}
+
+a{
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+
+ font-weight: bold;
+}
+a:hover{
+  color: rgb(233, 128, 121);
+  border-bottom: 1px solid black;
+}
+
+nav ul li{
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 h1{
-  color: red;
+  color: rgb(41, 35, 35);
   font-family: fantasy;
 }
 
 h2{
-  font-family: fantasy;
+  
 
 }
 
@@ -23,16 +66,116 @@ p{
   font-size: 18px;
 }
 
+#servicos{
+  text-align: center;
 
-img{
-  margin-bottom: 20px ;
-  width: 300px;
+}
+
+#servicos p{
+  width: 70%;
+  text-align: justify;
+
+  margin: 30px auto;
 }
 
 
+
+.imgs {
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ 
+}
+.imgs img{
+  margin-bottom: 20px ;
+  width: 400px;
+  margin-right: 4%;
+}
+
+.imgs img:last-child{
+  margin-right: 0;
+}
+
+/*======Clientes====*/
+#clientes{
+  margin-top: 50px;
+  text-align: center;
+  background-color: rgba(238, 184, 174, 0.562);
+  padding: 20px 0px 40px 0px;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+
+}
+.info p{
+  text-align: justify;
+  line-height: 2;
+  width: 500px;
+  
+  margin-right: 20px;
+  position: relative;
+  top: -10px;
+}
+
+
+.info img{
+width: 300px;
+}
+
+.infoP{
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+/*======Parceiros====*/
+
+#parceiros{
+  margin-top: 6%;
+  text-align: center;
+}
 #parceiros img{
   width: 130px;
+  
 }
+
+#parceiros a{
+  margin-right: 50px;
+}
+
+#parceiros a:last-child{
+  margin-right: 0px;
+}
+
+
+/*==time==*/
+
+#time{
+  text-align: center;
+}
+
+#time img{
+  width: 70%;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+hr{
+  width: 10%;
+  border:2px solid rgb(175, 66, 66);
+}
+
 
 
 #contato img{
