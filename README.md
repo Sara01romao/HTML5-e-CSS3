@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="25%" height="100%"  src="https://user-images.githubusercontent.com/46323667/107683372-3c681580-6c80-11eb-816b-2b0c16975d56.jpg">
+  <img width="30%" height="100%"  src="https://user-images.githubusercontent.com/46323667/107683372-3c681580-6c80-11eb-816b-2b0c16975d56.jpg">
 </p>
 
 <h1 align="center">
@@ -9,7 +9,7 @@
 </h12>
 
 # 
-Página desenvolvida durante o mini-cursos de Programação para internet com HTML e CSS3,  disponível na plataforma Digital Innovation One.
+Página desenvolvida durante o mini-curso de Programação para internet com HTML e CSS3,  disponível na plataforma Digital Innovation One.
 
 Com a estrutura básica desenvolvida no curso, adicionei  melhorias no layout:
 ```
