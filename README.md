@@ -22,5 +22,5 @@ Com a estrutura básica desenvolvida no curso por Rafael Galleani, adicionei  me
 <h6 align="center">  Imagem da Página </h6>
 
 <p align="center">
-  <img max-width="auto" height="auto"  src="https://user-images.githubusercontent.com/46323667/108140372-b6453800-70a0-11eb-80a9-35e775b08719.png">
+  <img max-width="auto" height="auto"  src="https://user-images.githubusercontent.com/46323667/108645844-e458bc80-7492-11eb-9313-62a12a7de855.png">
 </p>
