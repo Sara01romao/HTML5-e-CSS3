@@ -111,6 +111,11 @@ p {
   top: -10px;
 }
 
+.segunda{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
 .info img {
   border-radius: 10px;
   width: 300px;
@@ -130,11 +135,15 @@ p {
 #parceiros img {
   width: 150px;
   border-radius: 10px;
-  border: 3px solid rgba(134, 122, 122, 0.295);
+  border: 3px solid rgba(0, 0, 0, 0.89);
+  background-color: black;
+  
+  
 }
 
 #parceiros a {
   margin-right: 50px;
+  
 }
 
 #parceiros a:last-child {
@@ -151,8 +160,8 @@ p {
 }
 
 #time img {
-  width: 60%;
-  height: 400px;
+  max-width: 60%;
+  max-height: 400px;
   margin-top: 30px;
   border-radius: 20px;
   margin-bottom: 50px;
@@ -200,6 +209,17 @@ footer {
   border-top: 2px solid rgba(238, 184, 174, 0.562);
   text-align: center;
   margin-top: 70px;
+  font-weight: bold;
 
   color: rgb(190, 65, 56);
+}
+ 
+ 
+.footer{
+  width: 300px;
+  margin: 10px auto;
+  background-color: black;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 10px;
 }
